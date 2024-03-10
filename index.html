@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" class="display" disabled>
+        <div class="keys">
+            <button onclick="clearDisplay()"><b>C</b></button>
+            <button class="nbr" onclick="appendToDisplay('7')"><b>7</b></button>
+            <button class="nbr" onclick="appendToDisplay('8')"><b>8</b></button>
+            <button class="nbr" onclick="appendToDisplay('9')"><b>9</b></button>
+            <button class="signe" onclick="appendToDisplay('-')"><b>-</b></button>
+            <button class="nbr" onclick="appendToDisplay('4')"><b>4</b></button>
+            <button class="nbr" onclick="appendToDisplay('5')"><b>5</b></button>
+            <button class="nbr" onclick="appendToDisplay('6')"><b>6</b></button>
+            <button class="signe" onclick="appendToDisplay('*')"><b>×</b></button>
+            <button class="nbr" onclick="appendToDisplay('1')"><b>1</b></button>
+            <button class="nbr" onclick="appendToDisplay('2')"><b>2</b></button>
+            <button class="nbr" onclick="appendToDisplay('3')"><b>3</b></button>
+            <button class="signe" onclick="appendToDisplay('/')"><b>/</b></button>
+            <button class="nbr" onclick="appendToDisplay('0')"><b>0</b></button>
+            <button class="nbr" onclick="appendToDisplay('.')"><b>.</b></button>
+            <button class="signe" onclick="calculate()"><b>=</b></button>
+            <button class="signe" onclick="appendToDisplay('+')"><b>+</b></button>
+            
+        </div>
+    <script src="index.js"></script>
+    </div>
+</body>
+</html>
